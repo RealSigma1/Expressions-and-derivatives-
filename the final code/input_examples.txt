@@ -1,8 +1,0 @@
-g++ -o differentiator main.cpp
-
-./differentiator --diff "x * sin(x)" --by x
-./differentiator --eval "x * y" x=10 y=12
-./differentiator --eval "x * y" x=10 y=-30
-./differentiator --diff "x^y" --by x
-./differentiator --diff "x^y" --by y
-
